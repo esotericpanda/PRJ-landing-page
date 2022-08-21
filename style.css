@@ -165,3 +165,11 @@ html, body {
   font-weight: 600;
   color: white;
 }
+
+.footer{
+    text-align: center;
+    font-size: 24px;
+    background-color: #1F2937;
+    padding: 32px;
+    color: #E5E7EB;
+}
