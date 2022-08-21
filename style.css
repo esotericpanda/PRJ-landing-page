@@ -105,3 +105,24 @@ html, body {
     width:200px;
     height: auto;
 }
+
+/* quote */
+
+.quote{
+    padding: 64px 128px;
+    display: flex;
+    flex-direction: column;
+    background-color:#E5E7EB ;
+}
+
+.quote .text{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    color: #1F2937;
+}
+
+.quote .author{
+    align-self: flex-end;
+    font-size: 28px;
+}
