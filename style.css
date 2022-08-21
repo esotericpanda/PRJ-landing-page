@@ -102,5 +102,6 @@ html, body {
 .card img{
     border: 2px solid #3882F6;
     border-radius: 12px;
-    max-width:200px
+    width:200px;
+    height: auto;
 }
