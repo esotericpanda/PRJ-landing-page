@@ -1,6 +1,9 @@
+html, body {
+    margin: 0;
+    padding: 0;
+  } 
 
-
-.upper{
+.header, .intro{
     background-color: #1F2937;
     padding: 0 128px;
 }
@@ -10,6 +13,9 @@
     
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    padding-top: 16px;
+    padding-bottom: 96px;
 }
 
 .logo{
@@ -32,3 +38,36 @@
     font-size: 18px;
 }
 
+/* Intro */
+
+.intro{
+    display:flex;
+    justify-content: space-between;
+    gap: 32px;
+    padding-bottom: 96px;
+}
+
+.left div{
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 900;
+}
+.left p{
+    font-size: 18px;
+    color:#E5E7EB;
+}
+
+.left button{
+    color: #E5E7EB;
+    background-color: #3882F6;
+    border-radius: 4px;
+    border-width: 0px;
+    padding: 8px;
+
+    font-size: 18px;
+}
+
+.left img{
+    width: 300px;
+    height: auto;
+}
