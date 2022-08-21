@@ -1,6 +1,7 @@
 html, body {
     margin: 0;
     padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
   } 
 
 .header, .intro{
@@ -21,6 +22,7 @@ html, body {
 .logo{
     font-size: 24px;
     color: #F9FAF8;
+    font-weight: 900;
 }
 
 .header ul{
@@ -125,4 +127,41 @@ html, body {
 .quote .author{
     align-self: flex-end;
     font-size: 28px;
+}
+
+/* call to action */
+
+.c2a{
+    display: flex;
+    justify-content: center;
+}
+
+.c2a .field{
+    margin: 64px 128px;
+    padding: 32px 64px;
+    background-color: #3882F6;
+    border-radius: 12px;
+
+    display: flex;
+    gap: 64px;
+}
+
+.c2a .field div{
+    color:#E5E7EB;
+}
+.c2a strong{
+    font-size: 24px;
+}
+
+.c2a .field button{
+  align-self: center;
+  padding: 16px;
+  background-color: #3882F6;
+  border-radius: 8px;
+  border-color: #E5E7EB;
+  border-style: solid;
+
+  font-size: 16px;
+  font-weight: 600;
+  color: white;
 }
