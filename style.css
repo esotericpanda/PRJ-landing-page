@@ -71,3 +71,36 @@ html, body {
     width: 300px;
     height: auto;
 }
+
+/* gallery */
+.gallery{
+    text-align: center;
+}
+
+.gallery .subheader{
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    margin: 36px;
+}
+
+.deck{
+    display: flex;
+    justify-content: center;
+    gap:32px;
+
+    margin-bottom: 64px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    max-width: 200px;
+}
+
+
+.card img{
+    border: 2px solid #3882F6;
+    border-radius: 12px;
+    max-width:200px
+}
